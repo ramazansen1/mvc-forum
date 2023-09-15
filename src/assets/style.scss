@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(85, 85, 85);
+  font-family: "Poppins", sans-serif;
+  color: rgb(233, 233, 233);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: black;
+
+  a {
+    text-decoration: none;
+    color: gold;
+
+    transition: all 0.3s;
+
+    &:hover {
+      text-shadow: 2px 2px 25px rgb(200, 223, 5);
+    }
+  }
+
+  .active {
+    display: none;
+  }
+}
+
+// Listeleme Sayfası
+.container {
+  width: 70vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  .post {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.4);
+    .post-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        padding: 10px 15px;
+        border-radius: 8px;
+        background: crimson;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: gold;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// form sayfası
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  min-height: 55vh;
+  margin: 100px auto;
+  background: black;
+  padding: 50px 20px;
+  border-radius: 10px;
+  gap: 20px;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.4);
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 5px;
+    input {
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-family: "unbounded";
+    }
+    textarea {
+      resize: none;
+      height: 200px;
+      border: none;
+      padding: 10px 20px;
+      font-family: "unbounded";
+      border-radius: 8px;
+    }
+  }
+  button {
+    padding: 10px;
+    background: gold;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s;
+    text-shadow: 2px 4px 30px rgb(200, 223, 5);
+
+    &:hover {
+      scale: 0.99;
+    }
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: rgba(128, 128, 128, 0.173);
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  .popup {
+    height: 80%;
+    width: 70%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+
+    .btn-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+
+      span {
+        color: gold;
+      }
+      button {
+        background: crimson;
+        padding: 10px 20px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+}

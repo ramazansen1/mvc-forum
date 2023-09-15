@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "date": "2023-09-14T10:00:45.520Z",
+      "user": "Ramazan",
+      "title": "nasıl",
+      "text": "sadasdasd"
+    },
+    {
+      "id": "ef02c52d-f21c-4163-b94a-390ced0ab8a2",
+      "date": "2023-09-14T10:00:45.520Z",
+      "user": "Ahmet",
+      "title": "nasıl",
+      "text": "sadasdasd"
+    },
+    {
+      "id": "3f6f6251-1ffb-449e-baa1-e31746380f2c",
+      "date": "2023-09-14T13:07:14.381Z",
+      "user": "Ahmet",
+      "title": "Nasıl",
+      "text": "Neden"
+    },
+    {
+      "id": "d45ef836-23ce-4ece-a25b-8f57effacf27",
+      "date": "2023-09-14T13:57:40.868Z",
+      "user": "Ahmet",
+      "title": "ahads",
+      "text": "sadasd"
+    },
+    {
+      "id": "abf7bb86-96a7-4410-a899-c1769e129880",
+      "date": "2023-09-14T13:57:53.932Z",
+      "user": "Ahmet",
+      "title": "Ahmet",
+      "text": "sadasdasd"
+    },
+    {
+      "id": "0fee2489-5244-4676-bb76-f57328fa68b0",
+      "date": "2023-09-14T13:58:04.412Z",
+      "user": "Ahmet",
+      "title": "adsasd",
+      "text": "adsasd"
+    }
+  ]
+}
