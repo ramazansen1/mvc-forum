@@ -6,8 +6,9 @@ const ListPostView = ({
   setShowPopup,
   userName,
   setUserName,
-  deleteHandle,
+  deletePost,
   deleteData,
+  setPosts,
 }) => {
   return (
     <>
@@ -35,8 +36,10 @@ const ListPostView = ({
           <PopupController
             setShowPopup={setShowPopup}
             userName={userName}
-            deleteHandle={deleteHandle}
+            deletePost={deletePost}
             deleteData={deleteData}
+            posts={posts}
+            setPosts={setPosts}
           />
         )}
       </div>

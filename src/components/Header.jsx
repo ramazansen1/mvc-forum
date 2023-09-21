@@ -6,8 +6,10 @@ const Header = () => {
       <header>
         <h1>MVC Forum</h1>
 
-        <NavLink to={"/"}>Gönderiler</NavLink>
-        <NavLink to={"/add-post"}>Gönderi Ekle</NavLink>
+        <div className="link">
+          <NavLink to={"/"}>Gönderiler</NavLink>
+          <NavLink to={"/add-post"}>Gönderi Ekle</NavLink>
+        </div>
       </header>
     </>
   );
